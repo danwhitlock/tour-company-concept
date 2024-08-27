@@ -27,7 +27,12 @@ const Nav = () => {
           {socialLinks.map((socials) => {
             return (
               <li>
-                <a href={socials.href} target="_blank" className="nav-icon">
+                <a
+                  href={socials.href}
+                  target="_blank"
+                  rel="noreferrer"
+                  className="nav-icon"
+                >
                   <i className={socials.icon}></i>
                 </a>
               </li>
